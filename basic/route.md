@@ -24,7 +24,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 ```
 输出项的说明：
 - Destination  目标网段或者主机
-- Gateway      网关地址，”*” 表示目标是本主机所属的网络，不需要路由
+- Gateway      网关地址，”*” 和“0.0.0.0 ”表示目标是本主机所属的网络，不需要路由
 - Genmask      网络掩码
 - Flags        标记。一些可能的标记如下：
 
