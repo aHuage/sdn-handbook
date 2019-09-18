@@ -22,6 +22,11 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 192.168.0.0      0.0.0.0         255.255.192.0   U     0      0        0 eth0
 0.0.0.0         192.168.0.1      0.0.0.0         UG    100    0        0 eth0
 ```
+输出项的说明：
+- Destination  目标网段或者主机
+- Gateway      网关地址，”*” 表示目标是本主机所属的网络，不需要路由
+- Genmask      网络掩码
+-Flags        标记。一些可能的标记如下：
 
 Flags各项的含义：
 
